@@ -29,7 +29,7 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         fetchImage()
-        delay(3) {
+        delay(30) {
             self.loginAlert()
         }
     }
